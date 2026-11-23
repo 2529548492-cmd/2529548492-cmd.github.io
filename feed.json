@@ -11,6 +11,19 @@
     },
     "items": [
         {
+            "id": "https://exchange.example.com/posts/2026-11-24-一年十二元机场",
+            "content_html": "<p><a href=\"https://xn--mes358acgm99l.com/#/login\">https://极速机场.com/#/login</a></p>\n<br/><p>访问 <a href=\"https://exchange.example.com/posts/2026-11-24-一年十二元机场\" target=\"_blank\">https://exchange.example.com/posts/2026-11-24-一年十二元机场</a> 阅读全文。</p>",
+            "url": "https://exchange.example.com/posts/2026-11-24-一年十二元机场",
+            "title": "一年十二元机场",
+            "summary": "https://极速机场.com/#/login",
+            "date_modified": "2026-11-24T00:00:00.000Z",
+            "date_published": "2026-11-24T00:00:00.000Z",
+            "author": {
+                "name": "楚岚",
+                "url": "http://211.154.28.6:31116"
+            }
+        },
+        {
             "id": "https://exchange.example.com/posts/2026-11-23-flclash",
             "content_html": "<p><a href=\"https://flclash.dev/\">https://flclash.dev/</a></p>\n<br/><p>访问 <a href=\"https://exchange.example.com/posts/2026-11-23-flclash\" target=\"_blank\">https://exchange.example.com/posts/2026-11-23-flclash</a> 阅读全文。</p>",
             "url": "https://exchange.example.com/posts/2026-11-23-flclash",

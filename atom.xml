@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://exchange.example.com/</id>
     <title>硝子交换站</title>
-    <updated>2026-11-23T16:36:02.556Z</updated>
+    <updated>2026-11-23T17:19:24.474Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>楚岚</name>
@@ -14,6 +14,20 @@
     <logo>https://exchange.example.com/avatar.png</logo>
     <icon>https://exchange.example.com/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © 楚岚</rights>
+    <entry>
+        <title type="html"><![CDATA[一年十二元机场]]></title>
+        <id>https://exchange.example.com/posts/2026-11-24-%E4%B8%80%E5%B9%B4%E5%8D%81%E4%BA%8C%E5%85%83%E6%9C%BA%E5%9C%BA</id>
+        <link href="https://exchange.example.com/posts/2026-11-24-%E4%B8%80%E5%B9%B4%E5%8D%81%E4%BA%8C%E5%85%83%E6%9C%BA%E5%9C%BA"/>
+        <updated>2026-11-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[https://极速机场.com/#/login]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://xn--mes358acgm99l.com/#/login">https://极速机场.com/#/login</a></p>
+<br/><p>访问 <a href="https://exchange.example.com/posts/2026-11-24-一年十二元机场" target="_blank">https://exchange.example.com/posts/2026-11-24-一年十二元机场</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>楚岚</name>
+            <uri>http://211.154.28.6:31116/</uri>
+        </author>
+        <published>2026-11-24T00:00:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[flclash]]></title>
         <id>https://exchange.example.com/posts/2026-11-23-flclash</id>

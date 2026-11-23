@@ -1,0 +1,1 @@
+import{Q as e,Y as t}from"./client.DZoym7Fh.js";import{yt as n}from"./framework.CGn_Edu6.js";function r(r){let i=n(!1),{top:a}=t(r);return e(r,([{isIntersecting:e}])=>{i.value=e}),{show:()=>{i.value||window.scrollTo(0,a.value)}}}export{r as t};

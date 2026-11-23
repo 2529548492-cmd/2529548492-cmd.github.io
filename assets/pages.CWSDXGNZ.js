@@ -1,1 +1,0 @@
-import{t as e}from"./YunPostList.CKnm_S7z.js";import{W as t,t as n,v as r}from"./framework.CGn_Edu6.js";import{t as i}from"./route-block.ChiJXsfH.js";var a={};function o(n,i){let a=e;return t(),r(a)}typeof i==`function`&&i(a);var s=n(a,[[`render`,o]]);export{s as default};

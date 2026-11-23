@@ -4,7 +4,7 @@
         <title>硝子交换站</title>
         <link>https://exchange.example.com/</link>
         <description>幸生世界多宽广，不怒登我者之卑劣。</description>
-        <lastBuildDate>Mon, 23 Nov 2026 16:36:02 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Nov 2026 17:19:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,16 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © 楚岚</copyright>
         <atom:link href="https://exchange.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[一年十二元机场]]></title>
+            <link>https://exchange.example.com/posts/2026-11-24-%E4%B8%80%E5%B9%B4%E5%8D%81%E4%BA%8C%E5%85%83%E6%9C%BA%E5%9C%BA</link>
+            <guid isPermaLink="false">https://exchange.example.com/posts/2026-11-24-一年十二元机场</guid>
+            <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[https://极速机场.com/#/login]]></description>
+            <content:encoded><![CDATA[<p><a href="https://xn--mes358acgm99l.com/#/login">https://极速机场.com/#/login</a></p>
+<br/><p>访问 <a href="https://exchange.example.com/posts/2026-11-24-一年十二元机场" target="_blank">https://exchange.example.com/posts/2026-11-24-一年十二元机场</a> 阅读全文。</p>]]></content:encoded>
+            <author>楚岚</author>
+        </item>
         <item>
             <title><![CDATA[flclash]]></title>
             <link>https://exchange.example.com/posts/2026-11-23-flclash</link>

@@ -1,0 +1,1 @@
+import{t as e}from"./YunFooter.BPIm0bbi.js";import{t}from"./YunPostList.CQgDLg2Q.js";import{W as n,_ as r,b as i,f as a,t as o,w as s}from"./framework.CGn_Edu6.js";var c={},l={class:`mt-37 mb-4`};function u(o,c){let u=t,d=e;return n(),i(a,null,[r(`div`,l,[s(u)]),s(d)],64)}var d=o(c,[[`render`,u]]);export{d as default};
