@@ -1,0 +1,1 @@
+import{E as e,W as t,Y as n,v as r}from"./framework.CGn_Edu6.js";import"./client.C_nzbsGP.js";import{n as i,r as a,t as o}from"./addons.DGPB73AH.js";var s=e({__name:`YunArtalk`,setup(e){return a(o)||i(o).useArtalkWithOptions?.(),(e,i)=>{let a=n(`ArtalkClient`);return t(),r(a)}}});export{s as default};

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon-192x192.png">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{margin:0;opacity:0!important}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  var observer = new MutationObserver(check);
+  var timer = maxDuration ? setTimeout(reveal, maxDuration) : void 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    observer.disconnect();
+    clearTimeout(timer);
+    document.removeEventListener("load", check, true);
+    removeEventListener("load", reveal);
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    if (!document.body) return;
+    var links = document.head.querySelectorAll('link[rel~="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      var link = links[i];
+      if (!link.disabled && !link.sheet) return;
+    }
+    reveal();
+  }
+  observer.observe(document.documentElement, { childList: true });
+  observer.observe(document.head, {
+    childList: true,
+    subtree: true,
+    attributes: true,
+    attributeFilter: ["media", "rel", "disabled"]
+  });
+  document.addEventListener("load", check, true);
+  addEventListener("load", reveal);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || "zh-CN";
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.CnmEEYcV.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.XKyaHtl9.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.CGn_Edu6.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.Dqv37wQR.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.fm8t91fl.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.DVn8SaAG.js">
+  <link rel="modulepreload" crossorigin href="/assets/vue.DKb5ZKVl.iXRxm0-d.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.Dhhcc3dy.js">
+  <link rel="modulepreload" crossorigin href="/assets/client.C_nzbsGP.js">
+  <link rel="modulepreload" crossorigin href="/assets/module.EOU1vHDA.js">
+  <link rel="modulepreload" crossorigin href="/assets/composables.C6WnrlCc.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunFooter.ZUWMkCH2.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunLayoutWrapper.C3ikCkzr.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunOverlay.ASvP3r14.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunAdBoard.BKGa2Gog.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunCard.vii2bMkU.js">
+  <link rel="modulepreload" crossorigin href="/assets/sanitize.DgVZ_sV9.js">
+  <link rel="modulepreload" crossorigin href="/assets/AppLink.BUY4Tgaa.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/@vueuse/motion.BC3XHIjP.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.BxnaRx5o.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.B1WlKh3y.css">
+<link rel="preload" href="/assets/bg-img.kXdNMxcF.jpg" as="image">
+<link rel="preload" href="/assets/sidebar-bg-img.mp54gEws.webp" as="image">
+<link rel="modulepreload" crossorigin href="/assets/AppLink.BUY4Tgaa.js">
+<link rel="modulepreload" crossorigin href="/assets/YunLayoutWrapper.C3ikCkzr.js">
+<link rel="modulepreload" crossorigin href="/assets/YunCard.vii2bMkU.js">
+<link rel="modulepreload" crossorigin href="/assets/YunAdBoard.BKGa2Gog.js">
+<link rel="modulepreload" crossorigin href="/assets/toolbox.of2UHWrr.js">
+<link rel="modulepreload" crossorigin href="/assets/ValaxyMain.BGZIoVCv.js">
+<link rel="modulepreload" crossorigin href="/assets/YunPageHeader.C9tjbPux.js">
+<link rel="modulepreload" crossorigin href="/assets/YunOverlay.ASvP3r14.js">
+<link rel="modulepreload" crossorigin href="/assets/YunFooter.ZUWMkCH2.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>硝子工具箱 - 硝子交换站</title>
+<meta property="og:locale:alternate" content="en">
+<meta name="description" content="硝子工具箱 一个插件包，装进 DeepSeek Harness 就有四样能力：错题本、教学输出规范、错题本界面、解惑标签页。换电脑一键装回。 线路 A · 推荐 国内直连（交换站镜像） 从云电脑直接下载，国内网络首选（47.8 KB zip） 线路 B · 备用 GitHub Releases 海外节点，线路 A 打不开时再用（47.8 KB zip） zip 解压后是一个…">
+<meta property="og:description" content="硝子工具箱 一个插件包，装进 DeepSeek Harness 就有四样能力：错题本、教学输出规范、错题本界面、解惑标签页。换电脑一键装回。 线路 A · 推荐 国内直连（交换站镜像） 从云电脑直接下载，国内网络首选（47.8 KB zip） 线路 B · 备用 GitHub Releases 海外节点，线路 A 打不开时再用（47.8 KB zip） zip 解压后是一个…">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="硝子交换站">
+<meta property="og:title" content="硝子工具箱">
+<meta property="og:image" content="https://exchange.example.com/cover-toolbox.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://exchange.example.com/apps/toolbox">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="硝子工具箱 一个插件包，装进 DeepSeek Harness 就有四样能力：错题本、教学输出规范、错题本界面、解惑标签页。换电脑一键装回。 线路 A · 推荐 国内直连（交换站镜像） 从云电脑直接下载，国内网络首选（47.8 KB zip） 线路 B · 备用 GitHub Releases 海外节点，线路 A 打不开时再用（47.8 KB zip） zip 解压后是一个…">
+<meta name="twitter:image" content="https://exchange.example.com/cover-toolbox.png">
+<meta name="twitter:title" content="硝子工具箱">
+<link rel="icon" href="/favicon-192x192.png" type="image/png">
+<meta name="generator" content="Valaxy 1.3.4">
+<link rel="canonical" href="https://exchange.example.com/apps/toolbox">
+<meta name="theme-color" content="#fff">
+<meta name="msapplication-TileColor" content="#fff">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!--[--><!--v-if--><div class="yun-page-header-gradient"></div><div class="yun-nav-menu z-$yun-z-nav-menu fixed bg-transparent" data-v-bd475c09><!--  --><div class="inline-flex justify-start items-center flex-1" data-v-bd475c09><button type="button" class="vt-hamburger menu-btn sidebar-toggle leading-4 size-12 lg:hidden!" aria-label="mobile navigation" aria-expanded="false" inline-flex cursor="pointer" hover="bg-white/80 dark:bg-black/80" z="$yun-z-menu-btn" data-v-bd475c09><span class="vt-hamburger-container"><span class="vt-hamburger-top"></span><span class="vt-hamburger-middle"></span><span class="vt-hamburger-bottom"></span></span></button><a href="/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 aria-label="首页" title="首页" data-v-bd475c09><!--[--><div class="size-6 i-ri-home-4-line" aria-hidden="true"></div><!--]--></a><div class="hidden lg:contents" data-v-bd475c09><!--[--><a class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 aria-label="写博客" title="写博客" data-v-bd475c09 href="http://211.154.28.6:31116/blog-editor" target="_blank"><!--[--><div class="i-ri-quill-pen-line size-6" aria-hidden="true"></div><!--]--><!----></a><a href="/posts/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 aria-label="博客" title="博客" data-v-bd475c09><!--[--><div class="size-6 i-ri-article-line" aria-hidden="true"></div><!--]--></a><a href="/download/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 aria-label="下载" title="下载" data-v-bd475c09><!--[--><div class="size-6 i-ri-download-2-line" aria-hidden="true"></div><!--]--></a><a href="/changelog/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 aria-label="更新日志" title="更新日志" data-v-bd475c09><!--[--><div class="size-6 i-ri-history-line" aria-hidden="true"></div><!--]--></a><a href="/faq/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 aria-label="常见问题" title="常见问题" data-v-bd475c09><!--[--><div class="size-6 i-ri-question-line" aria-hidden="true"></div><!--]--></a><!--]--></div></div><div class="flex flex-1 flex-center" data-v-bd475c09><div flex="~ center col h-full" class="nav-menu-title-container cursor-pointer" data-v-bd475c09><!----><span class="font-light truncate">硝子交换站</span></div></div><div class="inline-flex-center justify-end items-center flex-1" data-v-bd475c09><!-- <template v-if="!app.isMobile && themeConfig.nav">
+        <template v-for="item in themeConfig.nav" :key="item.text">
+          <AppLink
+            v-if="'link' in item"
+            :to="item.link"
+            class="menu-btn inline-flex-center p-2 transition text-$va-c-text"
+            inline-flex cursor="pointer"
+            hover="bg-white/80 dark:bg-black/80"
+            z="$yun-z-menu-btn"
+          >
+            {{ item.text }}
+          </AppLink>
+          <template v-else-if="'items' in item" />
+        </template>
+      </template> --><button class="yun-icon-btn rounded-none! hidden sm:inline-flex" title="切换语言" style="color:var(--va-c-text);" data-v-bd475c09><div i-ri-translate class="transition transform"></div></button><button type="button" class="yun-icon-btn yun-toggle-dark rounded-none!" title="切换深色模式" aria-label="切换深色模式" data-v-bd475c09><div i="ri-sun-line dark:ri-moon-line"></div></button><!----></div></div><!----><!--v-if--><!----><!--[--><div class="yun-bg"></div><!--]--><!----><button type="button" class="back-to-top yun-icon-btn" aria-label="回到顶部" title="回到顶部" tabindex="-1" aria-hidden="true" style="--yun-back-top-progress:0deg;"><div class="back-to-top-arrow" i-ri-arrow-up-s-line aria-hidden="true"></div></button><!--]--><!--[--><!--]--><!----><!--]--><div class="min-h-screen flex flex-col"><!----><div class="mt-12 md:mt-24 yun-layout-wrapper-content yun-layout-wrapper__content"><!--[--><div class="yun-layout-left gap-4 sticky top-$yun-margin-top w-80"><!--[--><!--[--><div class="yun-card flex-center overflow-hidden p-4 min-h-sm" flex="~ col gap-1" min-h="100px" bg="$va-c-bg-light" data-v-3f360b6b><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center" data-v-3f360b6b><!--[--><div class="site-info gap-1 items-center text-center" flex="~ col" p="t-8"><a href="/about" class="site-author-avatar inline-flex-center"><div class="relative yun-author-avatar"><div class="absolute size-full avatar-bg bg-image-$yun-home-hero-image-background-image filter-blur-2xl op-30"></div><img class="rounded-full size-full bg-white dark:bg-white/20 p-1 m-0 absolute" src="/avatar.png" alt="avatar" width="100" height="100" fetchpriority="high"><!----></div></a><a href="/about" class="site-author-name font-black font-serif text-$va-c-text op-80 hover:op-100 flex-center">楚岚</a><span class="site-name text-lg leading-loose">硝子交换站</span><h4 class="site-subtitle block op-70" text="xs">文件互换 · 熟人专用 · 离线可用</h4><div class="site-description">幸生世界多宽广，不怒登我者之卑劣。</div></div><div class="yun-gradient-line my-2 op-20"></div><nav class="site-nav" text-xl mt-2><a href="/archives/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="归档" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-archive-line"></div><div class="text-2xl icon-active i-ri-archive-fill"></div><span class="text-xs">归档</span></div><span class="count text-base text-black/80 dark:text-white/80">5</span></a><a href="/categories/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="分类" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-folder-2-line"></div><div class="text-2xl icon-active i-ri-folder-2-fill"></div><span class="text-xs">分类</span></div><span class="count text-base text-black/80 dark:text-white/80">2</span></a><a href="/tags/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="标签" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-price-tag-3-line"></div><div class="text-2xl icon-active i-ri-price-tag-3-fill"></div><span class="text-xs">标签</span></div><span class="count text-base text-black/80 dark:text-white/80">2</span></a></nav><div class="yun-gradient-line my-2 op-20"></div><div class="links-of-author"><!--[--><a class="links-of-author-item yun-icon-btn" rel="noopener" href="/sponsor/" title="赞赏" target="_blank" style="color:#e11d48;"><div class="i-ri-heart-3-fill icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="/download/" title="下载" target="_blank" style="color:#2563eb;"><div class="i-ri-download-2-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="/changelog/" title="更新" target="_blank" style="color:#7c3aed;"><div class="i-ri-history-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="/faq/" title="帮助" target="_blank" style="color:#0891b2;"><div class="i-ri-question-line icon"></div></a><!--]--></div><div class="yun-gradient-line my-2 op-20"></div><div class="links flex-center"><!--[--><a class="va-link link-item yun-icon-btn" inline-flex title="写博客" style="color:#be185d;" href="http://211.154.28.6:31116/blog-editor" target="_blank"><!--[--><div class="i-ri-quill-pen-line icon size-6"></div><!--]--><!----></a><a class="va-link link-item yun-icon-btn" inline-flex title="在线访问" style="color:#176a4c;" href="http://211.154.28.6:31116" target="_blank"><!--[--><div class="i-ri-global-line icon size-6"></div><!--]--><!----></a><a href="/links/" class="va-link link-item yun-icon-btn" inline-flex title="我的伙伴" style="color:#0891b2;"><!--[--><div class="i-ri-team-line icon size-6"></div><!--]--></a><!--]--></div><!--]--></div><!----></div><!--[--><!--
+    Empty placeholder, meant to be overridden by the user (see demo/yun/components/YunAdBoard.vue).
+    `v-if="false"` renders a comment node instead of a real element: this avoids the SSR hydration
+    crash a raw `<template>` causes (#711), while still adding no gap to the parent flex layout,
+    which an empty `<div>` would (ab57216f).
+  --><!----><!--]--><!--]--><!--]--></div><main class="yun-main lt-md:w-full" flex="~ center"><!--[--><div class="content w-full md:w-3xl lg:w-2xl xl:w-2xl 2xl:w-4xl" flex="~ col grow" p="lt-md:0"><div class="yun-card flex-center overflow-hidden" flex="col" min-h="100px" bg="$va-c-bg-light" m="0" data-v-3f360b6b><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center" data-v-3f360b6b><!--[--><!----><div class="mt-8 mb-4"><!--[--><header class="post-header"><h1 p="2" text="2xl center" font="serif black" style="color:" class="post-title flex-center"><!----><span inline-flex class="leading-none">硝子工具箱</span></h1></header><!--]--></div><!--[--><!--]--><div p="x-4 b-8" class="sm:px-6 lg:px-12 xl:px-16" w="full"><!--[--><!--]--><!--[--><!-- <Transition appear> --><article class="markdown-body"><!--[--><!----><!----><!--[--><!--]--><!--[--><div class="x-app-head"><img class="x-app-icon" src="/cover-toolbox.png" alt="硝子工具箱"><div><h1 class="x-app-name">硝子工具箱</h1><p class="x-app-desc">一个插件包，装进 DeepSeek Harness 就有四样能力：错题本、教学输出规范、错题本界面、解惑标签页。换电脑一键装回。</p></div></div><div class="x-lines"><a class="x-line x-line-a" href="http://211.154.28.6:31116/download/lcl:aba23c6eb05d"><span class="x-line-tag">线路 A · 推荐</span><b class="x-line-name">国内直连（交换站镜像）</b><span class="x-line-desc">从云电脑直接下载，国内网络首选（47.8 KB zip）</span></a><a class="x-line x-line-b" href="https://github.com/2529548492-cmd/exchange-station/releases/download/dsh-toolbox-v1.3.0/dsh-personal-toolbox-v1.3.0.zip"><span class="x-line-tag">线路 B · 备用</span><b class="x-line-name">GitHub Releases</b><span class="x-line-desc">海外节点，线路 A 打不开时再用（47.8 KB zip）</span></a></div><p class="x-note">zip 解压后是一个 <code>dsh-personal-toolbox</code> 文件夹，不是安装程序；装法见下面。</p><h2 id="这个包里有四个功能" tabindex="-1">这个包里有四个功能 <a class="header-anchor" href="#这个包里有四个功能" aria-label="Permalink to &quot;这个包里有四个功能&quot;">​</a></h2><ol><li><strong>错题本</strong>：每次任务开头，Harness 自动看到&quot;要避开的坑&quot;清单；AI 犯错时自己登记一条（场景 / 症状 / 原因 / 规则），也支持&quot;更好方案&quot;。</li><li><strong>教学输出规范</strong>：讲题、做教学内容时默认视频带旁白字幕、公式出图、交付前自查、文字只做补充。</li><li><strong>错题本界面</strong>：左侧栏多一个「错题本」页，能看全部条目、自己补录一条、删除过时条目。</li><li><strong>解惑标签页</strong>：会话顶部标签行多一个「解惑」，框选一块界面截图，用本会话的模型通道讲成人话，可以继续追问，不写进对话。</li></ol><h2 id="安装-新电脑-3-步" tabindex="-1">安装（新电脑 3 步） <a class="header-anchor" href="#安装-新电脑-3-步" aria-label="Permalink to &quot;安装（新电脑 3 步）&quot;">​</a></h2><ol><li>解压 zip，得到 <code>dsh-personal-toolbox</code> 文件夹，放到任意目录</li><li>打开 DeepSeek Harness → <strong>插件（Plugins）→ 添加插件 → 选择这个文件夹</strong></li><li>重启 Harness：左侧栏出现「错题本」、会话标签出现「解惑」就装好了</li></ol><h2 id="注意事项" tabindex="-1">注意事项 <a class="header-anchor" href="#注意事项" aria-label="Permalink to &quot;注意事项&quot;">​</a></h2><ul><li>本包与原来四个独立插件（错题本、教学规范、错题本界面、解惑）<strong>二选一</strong>：工具名和路由相同，同时开会冲突。切换时先停用旧的再启用这个。</li><li>错题本历史数据在 <code>%USERPROFILE%\.dsh\mistake-book\entries.jsonl</code>，换电脑时把这个文件一起复制过去就能延续历史。</li><li>包内自带 <code>docs/</code>（功能详解、维护手册、给未来 AI 的重建规格书）和 <code>scripts/</code>（两个自检脚本），别人的 AI 也能接手维护。</li><li>需要 DeepSeek Harness 桌面版；本包不含任何密钥。</li></ul><!--]--><!--]--><!----><!----></article><!-- </Transition> --><!--]--><!--[--><!--]--></div><!--]--></div><!----></div><!--[--><!--]--><!--[--><div class="post-nav"><div class="post-nav-item"><!----></div><div class="post-nav-item"><a href="/posts/2026-11-23-flclash" class="post-nav-next" title="flclash"><span class="title truncate" text="sm">flclash</span><div class="icon" i-ri-arrow-right-s-line></div></a></div></div><!--]--><!--[--><!--]--><!----><!--[--><!--
+    Empty placeholder, meant to be overridden by the user (see demo/yun/components/YunAdBoard.vue).
+    `v-if="false"` renders a comment node instead of a real element: this avoids the SSR hydration
+    crash a raw `<template>` causes (#711), while still adding no gap to the parent flex layout,
+    which an empty `<div>` would (ab57216f).
+  --><!----><!--]--><!--[--><!--]--><!--[--><!--]--></div><!--]--></main><!--[--><!----><!----><!----><!--]--><!--]--></div><footer flex="~ col" class="relative yun-footer va-footer px-4 py-4 pt-0 text-$va-c-text-light w-full mt-14" bg="white dark:$va-c-bg-soft" text="center sm"><div class="yun-cloud absolute top--10 left-0 right-0"><svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" fill="var(--yun-c-cloud)"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><!----><div class="copyright flex justify-center items-center gap-2" p="1"><span> © <!----> 2026</span><a class="animate-pulse inline-flex" href="https://www.yunyoujun.cn/sponsors/" target="_blank" title="Sponsor YunYouJun"><div class="i-ri-cloud-line"></div></a><span>楚岚</span></div><div class="powered" m="2"><span>由 <a href="https://github.com/YunYouJun/valaxy.git" target="_blank" rel="noopener">Valaxy</a> <span class="op-60">v1.3.4</span> 驱动</span><span mx-1>|</span><span><span>主题</span><span mx-1>-</span><a href="https://github.com/YunYouJun/valaxy.git" title="valaxy-theme-yun" target="_blank">Yun</a><span class="ml-1 op-60">v1.3.4</span></span></div><!--[--><!--]--><div class="yun-footer-gradient"></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"yun-app":{"bannerAnimationDone":false},"app":{"showLoading":true},"site":{},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://exchange.example.com/#identity","@type":"Person","name":"楚岚","url":"http://211.154.28.6:31116","image":{"@id":"https://exchange.example.com/#/schema/image/1"},"sameAs":["https://exchange.example.com/sponsor/","https://exchange.example.com/download/","https://exchange.example.com/changelog/","https://exchange.example.com/faq/"]},{"@id":"https://exchange.example.com/#website","@type":"WebSite","description":"幸生世界多宽广，不怒登我者之卑劣。","inLanguage":"zh-CN","name":"硝子交换站","url":"https://exchange.example.com/","publisher":{"@id":"https://exchange.example.com/#identity"}},{"@id":"https://exchange.example.com/apps/toolbox#webpage","@type":"WebPage","dateModified":"2026-11-23T16:35:17.000Z","datePublished":"2026-11-23T16:35:17.000Z","description":"硝子工具箱 一个插件包，装进 DeepSeek Harness 就有四样能力：错题本、教学输出规范、错题本界面、解惑标签页。换电脑一键装回。 线路 A · 推荐 国内直连（交换站镜像） 从云电脑直接下载，国内网络首选（47.8 KB zip） 线路 B · 备用 GitHub Releases 海外节点，线路 A 打不开时再用（47.8 KB zip） zip 解压后是一个…","name":"硝子工具箱","url":"https://exchange.example.com/apps/toolbox","isPartOf":{"@id":"https://exchange.example.com/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://exchange.example.com/apps/toolbox"]}]},{"@id":"https://exchange.example.com/#/schema/image/1","@type":"ImageObject","contentUrl":"https://exchange.example.com/avatar.png","inLanguage":"zh-CN","url":"https://exchange.example.com/avatar.png"}]}</script>
+  <div id="valaxy-teleports"></div>
+  
+</body>
+</html>
