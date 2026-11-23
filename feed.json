@@ -1,0 +1,79 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "硝子交换站",
+    "home_page_url": "https://exchange.example.com/",
+    "feed_url": "https://exchange.example.com/feed.json",
+    "description": "幸生世界多宽广，不怒登我者之卑劣。",
+    "icon": "https://exchange.example.com/avatar.png",
+    "author": {
+        "name": "楚岚",
+        "url": "http://211.154.28.6:31116"
+    },
+    "items": [
+        {
+            "id": "https://exchange.example.com/posts/2026-11-23-flclash",
+            "content_html": "<p><a href=\"https://flclash.dev/\">https://flclash.dev/</a></p>\n<br/><p>访问 <a href=\"https://exchange.example.com/posts/2026-11-23-flclash\" target=\"_blank\">https://exchange.example.com/posts/2026-11-23-flclash</a> 阅读全文。</p>",
+            "url": "https://exchange.example.com/posts/2026-11-23-flclash",
+            "title": "flclash",
+            "summary": "https://flclash.dev/",
+            "date_modified": "2026-11-23T00:00:00.000Z",
+            "date_published": "2026-11-23T00:00:00.000Z",
+            "author": {
+                "name": "楚岚",
+                "url": "http://211.154.28.6:31116"
+            }
+        },
+        {
+            "id": "https://exchange.example.com/posts/2026-11-19-电饭锅电饭锅",
+            "content_html": "<p>会更好发给</p>\n<br/><p>访问 <a href=\"https://exchange.example.com/posts/2026-11-19-电饭锅电饭锅\" target=\"_blank\">https://exchange.example.com/posts/2026-11-19-电饭锅电饭锅</a> 阅读全文。</p>",
+            "url": "https://exchange.example.com/posts/2026-11-19-电饭锅电饭锅",
+            "title": "电饭锅电饭锅",
+            "summary": "会更好发给",
+            "date_modified": "2026-11-19T00:00:00.000Z",
+            "date_published": "2026-11-19T00:00:00.000Z",
+            "author": {
+                "name": "楚岚",
+                "url": "http://211.154.28.6:31116"
+            }
+        },
+        {
+            "id": "https://exchange.example.com/posts/2026-11-18-hello",
+            "content_html": "<h1>你好，硝子交换站</h1>\n<p>这是本站的第一篇博客文章。</p>\n<p>以后<strong>站长可以自己在 GitHub 网页上写新文章</strong>，提交后会自动构建并发布到这个域名，不需要再让别人代发。</p>\n<h2>怎么写新文章</h2>\n<ol>\n<li></li>\n</ol>\n<br/><p>访问 <a href=\"https://exchange.example.com/posts/2026-11-18-hello\" target=\"_blank\">https://exchange.example.com/posts/2026-11-18-hello</a> 阅读全文。</p>",
+            "url": "https://exchange.example.com/posts/2026-11-18-hello",
+            "title": "你好，硝子交换站",
+            "summary": "这是本站的第一篇博客文章。 以后站长可以自己在 GitHub 网页上写新文章，提交后会自动构建并发布到这个域名，不需要再让别人代发。 打开本站的 GitHub 仓库 进入 pages/posts/ 目录 点 Add file → Create new file 文件名写 2026-11-20-文章标题.md 内容格式： 点右下角 Commit changes 等大约 1~2…",
+            "date_modified": "2026-11-18T00:00:00.000Z",
+            "date_published": "2026-11-18T00:00:00.000Z",
+            "author": {
+                "name": "楚岚",
+                "url": "http://211.154.28.6:31116"
+            }
+        },
+        {
+            "id": "https://exchange.example.com/posts/2026-11-18-无敌了，孩子们",
+            "content_html": "<h1>无敌了，孩子们</h1>\n<p>正文写在这里，支持 Markdown 语法。</p>\n<h2>小标题</h2>\n<ul>\n<li>列表项 1</li>\n<li>列表项 2</li>\n</ul>\n<br/><p>访问 <a href=\"https://exchange.example.com/posts/2026-11-18-无敌了，孩子们\" target=\"_blank\">https://exchange.example.com/posts/2026-11-18-无敌了，孩子们</a> 阅读全文。</p>",
+            "url": "https://exchange.example.com/posts/2026-11-18-无敌了，孩子们",
+            "title": "无敌了，孩子们",
+            "summary": "正文写在这里，支持 Markdown 语法。 列表项 1 列表项 2",
+            "date_modified": "2026-11-18T00:00:00.000Z",
+            "date_published": "2026-11-18T00:00:00.000Z",
+            "author": {
+                "name": "楚岚",
+                "url": "http://211.154.28.6:31116"
+            }
+        },
+        {
+            "id": "https://exchange.example.com/posts/峡谷岛的第一篇笔记",
+            "content_html": "<h1>峡谷岛的第一篇笔记</h1>\n<p>今天开始在这里写点东西。</p>\n<p>（把这一行删掉，换成你想写的内容）</p>\n<br/><p>访问 <a href=\"https://exchange.example.com/posts/峡谷岛的第一篇笔记\" target=\"_blank\">https://exchange.example.com/posts/峡谷岛的第一篇笔记</a> 阅读全文。</p>",
+            "url": "https://exchange.example.com/posts/峡谷岛的第一篇笔记",
+            "title": "峡谷岛的第一篇笔记",
+            "summary": "今天开始在这里写点东西。 （把这一行删掉，换成你想写的内容）",
+            "date_modified": "2026-11-18T00:00:00.000Z",
+            "date_published": "2026-11-18T00:00:00.000Z",
+            "author": {
+                "name": "楚岚",
+                "url": "http://211.154.28.6:31116"
+            }
+        }
+    ]
+}

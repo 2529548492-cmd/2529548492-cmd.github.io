@@ -1,0 +1,1 @@
+import{E as e,W as t,Y as n,v as r}from"./framework.CGn_Edu6.js";var i=e({__name:`YunGallery`,props:{photos:{}},setup(e){return(i,a)=>{let o=n(`VAGallery`);return t(),r(o,{photos:e.photos},null,8,[`photos`])}}});export{i as default};

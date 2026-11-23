@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime.XKyaHtl9.js";var t=e({default:()=>o,emptyAddonName:()=>n,getAddonModule:()=>a,isEmptyAddon:()=>i,name:()=>r}),n=`virtual:valaxy-addons:empty`,r=n;function i(e){return e&&e.name===`virtual:valaxy-addons:empty`}function a(e){return e}var o={name:r};export{a as n,i as r,t};

@@ -1,0 +1,1 @@
+import{W as e,Y as t,t as n,v as r}from"./framework.CGn_Edu6.js";var i={};function a(n,i){let a=t(`RouterView`);return e(),r(a)}var o=n(i,[[`render`,a]]);export{o as default};

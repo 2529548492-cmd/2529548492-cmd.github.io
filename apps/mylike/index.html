@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon-192x192.png">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{margin:0;opacity:0!important}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  var observer = new MutationObserver(check);
+  var timer = maxDuration ? setTimeout(reveal, maxDuration) : void 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    observer.disconnect();
+    clearTimeout(timer);
+    document.removeEventListener("load", check, true);
+    removeEventListener("load", reveal);
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    if (!document.body) return;
+    var links = document.head.querySelectorAll('link[rel~="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      var link = links[i];
+      if (!link.disabled && !link.sheet) return;
+    }
+    reveal();
+  }
+  observer.observe(document.documentElement, { childList: true });
+  observer.observe(document.head, {
+    childList: true,
+    subtree: true,
+    attributes: true,
+    attributeFilter: ["media", "rel", "disabled"]
+  });
+  document.addEventListener("load", check, true);
+  addEventListener("load", reveal);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || "zh-CN";
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.EWPIddeF.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.XKyaHtl9.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.CGn_Edu6.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.Dqv37wQR.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.fm8t91fl.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.DVn8SaAG.js">
+  <link rel="modulepreload" crossorigin href="/assets/vue.DKb5ZKVl.iXRxm0-d.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.Dhhcc3dy.js">
+  <link rel="modulepreload" crossorigin href="/assets/client.CCcsmaeL.js">
+  <link rel="modulepreload" crossorigin href="/assets/module.EOU1vHDA.js">
+  <link rel="modulepreload" crossorigin href="/assets/composables.DGJw5GW8.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunFooter.D7ok4zwS.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunLayoutWrapper.TVhTm0R-.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunOverlay.CyWSMXmm.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunAdBoard.BKGa2Gog.js">
+  <link rel="modulepreload" crossorigin href="/assets/YunCard.GD7wgTAj.js">
+  <link rel="modulepreload" crossorigin href="/assets/sanitize.DgVZ_sV9.js">
+  <link rel="modulepreload" crossorigin href="/assets/AppLink.sMXp27YN.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/@vueuse/motion.BC3XHIjP.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.BxnaRx5o.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.CrKpWxg-.css">
+<link rel="preload" href="/assets/bg-img.kXdNMxcF.jpg" as="image">
+<link rel="preload" href="/assets/sidebar-bg-img.mp54gEws.webp" as="image">
+<link rel="modulepreload" crossorigin href="/assets/AppLink.sMXp27YN.js">
+<link rel="modulepreload" crossorigin href="/assets/YunLayoutWrapper.TVhTm0R-.js">
+<link rel="modulepreload" crossorigin href="/assets/YunCard.GD7wgTAj.js">
+<link rel="modulepreload" crossorigin href="/assets/YunAdBoard.BKGa2Gog.js">
+<link rel="modulepreload" crossorigin href="/assets/mylike.IJzuU2fO.js">
+<link rel="modulepreload" crossorigin href="/assets/ValaxyMain.n32kt2BD.js">
+<link rel="modulepreload" crossorigin href="/assets/YunPageHeader.C9tjbPux.js">
+<link rel="modulepreload" crossorigin href="/assets/YunOverlay.CyWSMXmm.js">
+<link rel="modulepreload" crossorigin href="/assets/YunFooter.D7ok4zwS.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MyLike（个人加强版） - 硝子交换站</title>
+<meta property="og:locale:alternate" content="en">
+<meta name="description" content="MyLike · 个人加强版 把喜欢，再喜欢一遍。Windows 桌面应用，用来回看抖音的喜欢与收藏；这里的版本是站长在原作者项目上加了几处功能的改版。 下载个人加强版（166 MB） 声明：这不是原作者发布的版本。 这里是站长在原作者的开源项目上做的个人改版（加了几个自己用的功能），仅作自用与分享，不代表官方，也不代表原作者立场。 原作者项目： 原版下载： 项目许可：MIT 基于官方…">
+<meta property="og:description" content="MyLike · 个人加强版 把喜欢，再喜欢一遍。Windows 桌面应用，用来回看抖音的喜欢与收藏；这里的版本是站长在原作者项目上加了几处功能的改版。 下载个人加强版（166 MB） 声明：这不是原作者发布的版本。 这里是站长在原作者的开源项目上做的个人改版（加了几个自己用的功能），仅作自用与分享，不代表官方，也不代表原作者立场。 原作者项目： 原版下载： 项目许可：MIT 基于官方…">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="硝子交换站">
+<meta property="og:title" content="MyLike（个人加强版）">
+<meta property="og:image" content="https://exchange.example.com/cover-mylike.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://exchange.example.com/apps/mylike">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="MyLike · 个人加强版 把喜欢，再喜欢一遍。Windows 桌面应用，用来回看抖音的喜欢与收藏；这里的版本是站长在原作者项目上加了几处功能的改版。 下载个人加强版（166 MB） 声明：这不是原作者发布的版本。 这里是站长在原作者的开源项目上做的个人改版（加了几个自己用的功能），仅作自用与分享，不代表官方，也不代表原作者立场。 原作者项目： 原版下载： 项目许可：MIT 基于官方…">
+<meta name="twitter:image" content="https://exchange.example.com/cover-mylike.jpg">
+<meta name="twitter:title" content="MyLike（个人加强版）">
+<link rel="icon" href="/favicon-192x192.png" type="image/png">
+<meta name="generator" content="Valaxy 1.3.4">
+<link rel="canonical" href="https://exchange.example.com/apps/mylike">
+<meta name="theme-color" content="#fff">
+<meta name="msapplication-TileColor" content="#fff">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!--[--><!--v-if--><div class="yun-page-header-gradient"></div><div class="yun-nav-menu z-$yun-z-nav-menu fixed bg-transparent" data-v-bd475c09><!--  --><div class="inline-flex justify-start items-center flex-1" data-v-bd475c09><button type="button" class="vt-hamburger menu-btn sidebar-toggle leading-4 size-12 lg:hidden!" aria-label="mobile navigation" aria-expanded="false" inline-flex cursor="pointer" hover="bg-white/80 dark:bg-black/80" z="$yun-z-menu-btn" data-v-bd475c09><span class="vt-hamburger-container"><span class="vt-hamburger-top"></span><span class="vt-hamburger-middle"></span><span class="vt-hamburger-bottom"></span></span></button><a href="/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 aria-label="首页" title="首页" data-v-bd475c09><!--[--><div class="size-6 i-ri-home-4-line" aria-hidden="true"></div><!--]--></a><div class="hidden lg:contents" data-v-bd475c09><!--[--><a class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 aria-label="写博客" title="写博客" data-v-bd475c09 href="http://211.154.28.6:31116/blog-editor" target="_blank"><!--[--><div class="i-ri-quill-pen-line size-6" aria-hidden="true"></div><!--]--><!----></a><a href="/posts/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 aria-label="博客" title="博客" data-v-bd475c09><!--[--><div class="size-6 i-ri-article-line" aria-hidden="true"></div><!--]--></a><a href="/download/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 aria-label="下载" title="下载" data-v-bd475c09><!--[--><div class="size-6 i-ri-download-2-line" aria-hidden="true"></div><!--]--></a><a href="/changelog/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 aria-label="更新日志" title="更新日志" data-v-bd475c09><!--[--><div class="size-6 i-ri-history-line" aria-hidden="true"></div><!--]--></a><a href="/faq/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 aria-label="常见问题" title="常见问题" data-v-bd475c09><!--[--><div class="size-6 i-ri-question-line" aria-hidden="true"></div><!--]--></a><!--]--></div></div><div class="flex flex-1 flex-center" data-v-bd475c09><div flex="~ center col h-full" class="nav-menu-title-container cursor-pointer" data-v-bd475c09><!----><span class="font-light truncate">硝子交换站</span></div></div><div class="inline-flex-center justify-end items-center flex-1" data-v-bd475c09><!-- <template v-if="!app.isMobile && themeConfig.nav">
+        <template v-for="item in themeConfig.nav" :key="item.text">
+          <AppLink
+            v-if="'link' in item"
+            :to="item.link"
+            class="menu-btn inline-flex-center p-2 transition text-$va-c-text"
+            inline-flex cursor="pointer"
+            hover="bg-white/80 dark:bg-black/80"
+            z="$yun-z-menu-btn"
+          >
+            {{ item.text }}
+          </AppLink>
+          <template v-else-if="'items' in item" />
+        </template>
+      </template> --><button class="yun-icon-btn rounded-none! hidden sm:inline-flex" title="切换语言" style="color:var(--va-c-text);" data-v-bd475c09><div i-ri-translate class="transition transform"></div></button><button type="button" class="yun-icon-btn yun-toggle-dark rounded-none!" title="切换深色模式" aria-label="切换深色模式" data-v-bd475c09><div i="ri-sun-line dark:ri-moon-line"></div></button><!----></div></div><!----><!--v-if--><!----><!--[--><div class="yun-bg"></div><!--]--><!----><button type="button" class="back-to-top yun-icon-btn" aria-label="回到顶部" title="回到顶部" tabindex="-1" aria-hidden="true" style="--yun-back-top-progress:0deg;"><div class="back-to-top-arrow" i-ri-arrow-up-s-line aria-hidden="true"></div></button><!--]--><!--[--><!--]--><!----><!--]--><div class="min-h-screen flex flex-col"><!----><div class="mt-12 md:mt-24 yun-layout-wrapper-content yun-layout-wrapper__content"><!--[--><div class="yun-layout-left gap-4 sticky top-$yun-margin-top w-80"><!--[--><!--[--><div class="yun-card flex-center overflow-hidden p-4 min-h-sm" flex="~ col gap-1" min-h="100px" bg="$va-c-bg-light" data-v-3f360b6b><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center" data-v-3f360b6b><!--[--><div class="site-info gap-1 items-center text-center" flex="~ col" p="t-8"><a href="/about" class="site-author-avatar inline-flex-center"><div class="relative yun-author-avatar"><div class="absolute size-full avatar-bg bg-image-$yun-home-hero-image-background-image filter-blur-2xl op-30"></div><img class="rounded-full size-full bg-white dark:bg-white/20 p-1 m-0 absolute" src="/avatar.png" alt="avatar" width="100" height="100" fetchpriority="high"><!----></div></a><a href="/about" class="site-author-name font-black font-serif text-$va-c-text op-80 hover:op-100 flex-center">楚岚</a><span class="site-name text-lg leading-loose">硝子交换站</span><h4 class="site-subtitle block op-70" text="xs">文件互换 · 熟人专用 · 离线可用</h4><div class="site-description">幸生世界多宽广，不怒登我者之卑劣。</div></div><div class="yun-gradient-line my-2 op-20"></div><nav class="site-nav" text-xl mt-2><a href="/archives/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="归档" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-archive-line"></div><div class="text-2xl icon-active i-ri-archive-fill"></div><span class="text-xs">归档</span></div><span class="count text-base text-black/80 dark:text-white/80">5</span></a><a href="/categories/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="分类" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-folder-2-line"></div><div class="text-2xl icon-active i-ri-folder-2-fill"></div><span class="text-xs">分类</span></div><span class="count text-base text-black/80 dark:text-white/80">2</span></a><a href="/tags/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="标签" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-price-tag-3-line"></div><div class="text-2xl icon-active i-ri-price-tag-3-fill"></div><span class="text-xs">标签</span></div><span class="count text-base text-black/80 dark:text-white/80">2</span></a></nav><div class="yun-gradient-line my-2 op-20"></div><div class="links-of-author"><!--[--><a class="links-of-author-item yun-icon-btn" rel="noopener" href="/sponsor/" title="赞赏" target="_blank" style="color:#e11d48;"><div class="i-ri-heart-3-fill icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="/download/" title="下载" target="_blank" style="color:#2563eb;"><div class="i-ri-download-2-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="/changelog/" title="更新" target="_blank" style="color:#7c3aed;"><div class="i-ri-history-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="/faq/" title="帮助" target="_blank" style="color:#0891b2;"><div class="i-ri-question-line icon"></div></a><!--]--></div><div class="yun-gradient-line my-2 op-20"></div><div class="links flex-center"><!--[--><a class="va-link link-item yun-icon-btn" inline-flex title="写博客" style="color:#be185d;" href="http://211.154.28.6:31116/blog-editor" target="_blank"><!--[--><div class="i-ri-quill-pen-line icon size-6"></div><!--]--><!----></a><a class="va-link link-item yun-icon-btn" inline-flex title="在线访问" style="color:#176a4c;" href="http://211.154.28.6:31116" target="_blank"><!--[--><div class="i-ri-global-line icon size-6"></div><!--]--><!----></a><a href="/links/" class="va-link link-item yun-icon-btn" inline-flex title="我的伙伴" style="color:#0891b2;"><!--[--><div class="i-ri-team-line icon size-6"></div><!--]--></a><!--]--></div><!--]--></div><!----></div><!--[--><!--
+    Empty placeholder, meant to be overridden by the user (see demo/yun/components/YunAdBoard.vue).
+    `v-if="false"` renders a comment node instead of a real element: this avoids the SSR hydration
+    crash a raw `<template>` causes (#711), while still adding no gap to the parent flex layout,
+    which an empty `<div>` would (ab57216f).
+  --><!----><!--]--><!--]--><!--]--></div><main class="yun-main lt-md:w-full" flex="~ center"><!--[--><div class="content w-full md:w-3xl lg:w-2xl xl:w-2xl 2xl:w-4xl" flex="~ col grow" p="lt-md:0"><div class="yun-card flex-center overflow-hidden" flex="col" min-h="100px" bg="$va-c-bg-light" m="0" data-v-3f360b6b><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center" data-v-3f360b6b><!--[--><!----><div class="mt-8 mb-4"><!--[--><header class="post-header"><h1 p="2" text="2xl center" font="serif black" style="color:" class="post-title flex-center"><!----><span inline-flex class="leading-none">MyLike（个人加强版）</span></h1></header><!--]--></div><!--[--><!--]--><div p="x-4 b-8" class="sm:px-6 lg:px-12 xl:px-16" w="full"><!--[--><!--]--><!--[--><!-- <Transition appear> --><article class="markdown-body"><!--[--><!----><!----><!--[--><!--]--><!--[--><div class="x-app-head"><img class="x-app-icon" src="/cover-mylike.jpg" alt="MyLike"><div><h1 class="x-app-name">MyLike · 个人加强版</h1><p class="x-app-desc">把喜欢，再喜欢一遍。Windows 桌面应用，用来回看抖音的喜欢与收藏；这里的版本是站长在原作者项目上加了几处功能的改版。</p></div></div><p><a class="x-dl" href="https://github.com/2529548492-cmd/douyin-favorite-MyLike/releases/download/v2.0.7-mylike/MyLike-2.0.7-enhanced-win-x64.zip">下载个人加强版（166 MB）</a></p><blockquote><p><strong>声明：这不是原作者发布的版本。</strong> 这里是站长在原作者的开源项目上做的<strong>个人改版</strong>（加了几个自己用的功能），仅作自用与分享，不代表官方，也不代表原作者立场。</p><ul><li>原作者项目：<a href="https://github.com/Hannah2227/douyin-favorite-MyLike" target="_blank" rel="noreferrer">https://github.com/Hannah2227/douyin-favorite-MyLike</a></li><li>原版下载：<a href="https://github.com/Hannah2227/douyin-favorite-MyLike/releases" target="_blank" rel="noreferrer">https://github.com/Hannah2227/douyin-favorite-MyLike/releases</a></li><li>项目许可：MIT</li></ul></blockquote><h2 id="这个改版加了什么" tabindex="-1">这个改版加了什么 <a class="header-anchor" href="#这个改版加了什么" aria-label="Permalink to &quot;这个改版加了什么&quot;">​</a></h2><p>基于官方 2.0.7，站长改了三处：</p><ol><li><strong>综合搜索</strong>：搜索框里用空格分隔多个关键词，取并集去重</li><li><strong>作者榜 300 位</strong> + 滚轮位置记忆</li><li><strong>播放页下载按钮</strong>：看到喜欢的视频可以直接存下来</li></ol><p>数据目录与官方版一致，首次运行会沿用已有数据。</p><h2 id="怎么安装" tabindex="-1">怎么安装 <a class="header-anchor" href="#怎么安装" aria-label="Permalink to &quot;怎么安装&quot;">​</a></h2><ol><li>点上面的「下载个人加强版」，得到 <code>MyLike-2.0.7-enhanced-win-x64.zip</code></li><li>解压到任意目录，例如 <code>D:\MyLike</code></li><li>双击 <code>MyLike.exe</code> 即可使用，<strong>不需要先装官方版</strong></li></ol><blockquote><p>数据目录：<code>%LOCALAPPDATA%\DouyinShuffle</code></p></blockquote><h2 id="怎么验证改版生效" tabindex="-1">怎么验证改版生效 <a class="header-anchor" href="#怎么验证改版生效" aria-label="Permalink to &quot;怎么验证改版生效&quot;">​</a></h2><p>打开「喜欢」页，在搜索框输入 <code>学习 高考</code>，右侧出现「综合搜索 · 2」就说明是加强版。</p><h2 id="系统要求" tabindex="-1">系统要求 <a class="header-anchor" href="#系统要求" aria-label="Permalink to &quot;系统要求&quot;">​</a></h2><ul><li>Windows 10 / 11（x64）</li><li>体积：166 MB（压缩包）</li><li>免安装，解压即用</li></ul><h2 id="相关链接" tabindex="-1">相关链接 <a class="header-anchor" href="#相关链接" aria-label="Permalink to &quot;相关链接&quot;">​</a></h2><ul><li>原作者仓库（官方）：<a href="https://github.com/Hannah2227/douyin-favorite-MyLike" target="_blank" rel="noreferrer">https://github.com/Hannah2227/douyin-favorite-MyLike</a></li><li>本站改版的源码：<a href="https://github.com/2529548492-cmd/douyin-favorite-MyLike" target="_blank" rel="noreferrer">https://github.com/2529548492-cmd/douyin-favorite-MyLike</a></li><li>全部版本（Release）：<a href="https://github.com/2529548492-cmd/douyin-favorite-MyLike/releases" target="_blank" rel="noreferrer">https://github.com/2529548492-cmd/douyin-favorite-MyLike/releases</a></li></ul><blockquote><p>第三方客户端可能不符合抖音用户协议，账号存在被限制的风险，请自行判断是否使用。</p></blockquote><!--]--><!--]--><!----><!----></article><!-- </Transition> --><!--]--><!--[--><!--]--></div><!--]--></div><!----></div><!--[--><!--]--><!--[--><div class="post-nav"><div class="post-nav-item"><!----></div><div class="post-nav-item"><a href="/posts/2026-11-23-flclash" class="post-nav-next" title="flclash"><span class="title truncate" text="sm">flclash</span><div class="icon" i-ri-arrow-right-s-line></div></a></div></div><!--]--><!--[--><!--]--><!----><!--[--><!--
+    Empty placeholder, meant to be overridden by the user (see demo/yun/components/YunAdBoard.vue).
+    `v-if="false"` renders a comment node instead of a real element: this avoids the SSR hydration
+    crash a raw `<template>` causes (#711), while still adding no gap to the parent flex layout,
+    which an empty `<div>` would (ab57216f).
+  --><!----><!--]--><!--[--><!--]--><!--[--><!--]--></div><!--]--></main><!--[--><!----><!----><!----><!--]--><!--]--></div><footer flex="~ col" class="relative yun-footer va-footer px-4 py-4 pt-0 text-$va-c-text-light w-full mt-14" bg="white dark:$va-c-bg-soft" text="center sm"><div class="yun-cloud absolute top--10 left-0 right-0"><svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" fill="var(--yun-c-cloud)"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><!----><div class="copyright flex justify-center items-center gap-2" p="1"><span> © <!----> 2026</span><a class="animate-pulse inline-flex" href="https://www.yunyoujun.cn/sponsors/" target="_blank" title="Sponsor YunYouJun"><div class="i-ri-cloud-line"></div></a><span>楚岚</span></div><div class="powered" m="2"><span>由 <a href="https://github.com/YunYouJun/valaxy.git" target="_blank" rel="noopener">Valaxy</a> <span class="op-60">v1.3.4</span> 驱动</span><span mx-1>|</span><span><span>主题</span><span mx-1>-</span><a href="https://github.com/YunYouJun/valaxy.git" title="valaxy-theme-yun" target="_blank">Yun</a><span class="ml-1 op-60">v1.3.4</span></span></div><!--[--><!--]--><div class="yun-footer-gradient"></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"yun-app":{"bannerAnimationDone":false},"app":{"showLoading":true},"site":{},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://exchange.example.com/#identity","@type":"Person","name":"楚岚","url":"http://211.154.28.6:31116","image":{"@id":"https://exchange.example.com/#/schema/image/1"},"sameAs":["https://exchange.example.com/sponsor/","https://exchange.example.com/download/","https://exchange.example.com/changelog/","https://exchange.example.com/faq/"]},{"@id":"https://exchange.example.com/#website","@type":"WebSite","description":"幸生世界多宽广，不怒登我者之卑劣。","inLanguage":"zh-CN","name":"硝子交换站","url":"https://exchange.example.com/","publisher":{"@id":"https://exchange.example.com/#identity"}},{"@id":"https://exchange.example.com/apps/mylike#webpage","@type":"WebPage","dateModified":"2026-11-23T13:41:56.000Z","datePublished":"2026-11-23T13:41:56.000Z","description":"MyLike · 个人加强版 把喜欢，再喜欢一遍。Windows 桌面应用，用来回看抖音的喜欢与收藏；这里的版本是站长在原作者项目上加了几处功能的改版。 下载个人加强版（166 MB） 声明：这不是原作者发布的版本。 这里是站长在原作者的开源项目上做的个人改版（加了几个自己用的功能），仅作自用与分享，不代表官方，也不代表原作者立场。 原作者项目： 原版下载： 项目许可：MIT 基于官方…","name":"MyLike（个人加强版）","url":"https://exchange.example.com/apps/mylike","isPartOf":{"@id":"https://exchange.example.com/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://exchange.example.com/apps/mylike"]}]},{"@id":"https://exchange.example.com/#/schema/image/1","@type":"ImageObject","contentUrl":"https://exchange.example.com/avatar.png","inLanguage":"zh-CN","url":"https://exchange.example.com/avatar.png"}]}</script>
+  <div id="valaxy-teleports"></div>
+  
+</body>
+</html>

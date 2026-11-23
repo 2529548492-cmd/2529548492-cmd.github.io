@@ -1,0 +1,1 @@
+import{E as e,W as t,_ as n,b as r}from"./framework.CGn_Edu6.js";import"./client.CCcsmaeL.js";import{n as i,r as a,t as o}from"./addons.DGPB73AH.js";var s=e({__name:`YunTwikoo`,setup(e){return a(o)||i(o).useTwikooWithOptions(),(e,i)=>(t(),r(`div`,null,[...i[0]||=[n(`div`,{id:`tcomment`,w:`full`},null,-1)]]))}});export{s as default};

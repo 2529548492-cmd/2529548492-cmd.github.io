@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>硝子交换站</title>
+        <link>https://exchange.example.com/</link>
+        <description>幸生世界多宽广，不怒登我者之卑劣。</description>
+        <lastBuildDate>Mon, 23 Nov 2026 13:42:32 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>硝子交换站</title>
+            <url>https://exchange.example.com/avatar.png</url>
+            <link>https://exchange.example.com/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2026 © 楚岚</copyright>
+        <atom:link href="https://exchange.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[flclash]]></title>
+            <link>https://exchange.example.com/posts/2026-11-23-flclash</link>
+            <guid isPermaLink="false">https://exchange.example.com/posts/2026-11-23-flclash</guid>
+            <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[https://flclash.dev/]]></description>
+            <content:encoded><![CDATA[<p><a href="https://flclash.dev/">https://flclash.dev/</a></p>
+<br/><p>访问 <a href="https://exchange.example.com/posts/2026-11-23-flclash" target="_blank">https://exchange.example.com/posts/2026-11-23-flclash</a> 阅读全文。</p>]]></content:encoded>
+            <author>楚岚</author>
+        </item>
+        <item>
+            <title><![CDATA[电饭锅电饭锅]]></title>
+            <link>https://exchange.example.com/posts/2026-11-19-%E7%94%B5%E9%A5%AD%E9%94%85%E7%94%B5%E9%A5%AD%E9%94%85</link>
+            <guid isPermaLink="false">https://exchange.example.com/posts/2026-11-19-电饭锅电饭锅</guid>
+            <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[会更好发给]]></description>
+            <content:encoded><![CDATA[<p>会更好发给</p>
+<br/><p>访问 <a href="https://exchange.example.com/posts/2026-11-19-电饭锅电饭锅" target="_blank">https://exchange.example.com/posts/2026-11-19-电饭锅电饭锅</a> 阅读全文。</p>]]></content:encoded>
+            <author>楚岚</author>
+        </item>
+        <item>
+            <title><![CDATA[你好，硝子交换站]]></title>
+            <link>https://exchange.example.com/posts/2026-11-18-hello</link>
+            <guid isPermaLink="false">https://exchange.example.com/posts/2026-11-18-hello</guid>
+            <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[这是本站的第一篇博客文章。 以后站长可以自己在 GitHub 网页上写新文章，提交后会自动构建并发布到这个域名，不需要再让别人代发。 打开本站的 GitHub 仓库 进入 pages/posts/ 目录 点 Add file → Create new file 文件名写 2026-11-20-文章标题.md 内容格式： 点右下角 Commit changes 等大约 1~2…]]></description>
+            <content:encoded><![CDATA[<h1>你好，硝子交换站</h1>
+<p>这是本站的第一篇博客文章。</p>
+<p>以后<strong>站长可以自己在 GitHub 网页上写新文章</strong>，提交后会自动构建并发布到这个域名，不需要再让别人代发。</p>
+<h2>怎么写新文章</h2>
+<ol>
+<li></li>
+</ol>
+<br/><p>访问 <a href="https://exchange.example.com/posts/2026-11-18-hello" target="_blank">https://exchange.example.com/posts/2026-11-18-hello</a> 阅读全文。</p>]]></content:encoded>
+            <author>楚岚</author>
+        </item>
+        <item>
+            <title><![CDATA[无敌了，孩子们]]></title>
+            <link>https://exchange.example.com/posts/2026-11-18-%E6%97%A0%E6%95%8C%E4%BA%86%EF%BC%8C%E5%AD%A9%E5%AD%90%E4%BB%AC</link>
+            <guid isPermaLink="false">https://exchange.example.com/posts/2026-11-18-无敌了，孩子们</guid>
+            <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[正文写在这里，支持 Markdown 语法。 列表项 1 列表项 2]]></description>
+            <content:encoded><![CDATA[<h1>无敌了，孩子们</h1>
+<p>正文写在这里，支持 Markdown 语法。</p>
+<h2>小标题</h2>
+<ul>
+<li>列表项 1</li>
+<li>列表项 2</li>
+</ul>
+<br/><p>访问 <a href="https://exchange.example.com/posts/2026-11-18-无敌了，孩子们" target="_blank">https://exchange.example.com/posts/2026-11-18-无敌了，孩子们</a> 阅读全文。</p>]]></content:encoded>
+            <author>楚岚</author>
+        </item>
+        <item>
+            <title><![CDATA[峡谷岛的第一篇笔记]]></title>
+            <link>https://exchange.example.com/posts/%E5%B3%A1%E8%B0%B7%E5%B2%9B%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E7%AC%94%E8%AE%B0</link>
+            <guid isPermaLink="false">https://exchange.example.com/posts/峡谷岛的第一篇笔记</guid>
+            <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[今天开始在这里写点东西。 （把这一行删掉，换成你想写的内容）]]></description>
+            <content:encoded><![CDATA[<h1>峡谷岛的第一篇笔记</h1>
+<p>今天开始在这里写点东西。</p>
+<p>（把这一行删掉，换成你想写的内容）</p>
+<br/><p>访问 <a href="https://exchange.example.com/posts/峡谷岛的第一篇笔记" target="_blank">https://exchange.example.com/posts/峡谷岛的第一篇笔记</a> 阅读全文。</p>]]></content:encoded>
+            <author>楚岚</author>
+        </item>
+    </channel>
+</rss>
